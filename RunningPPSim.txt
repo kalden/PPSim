@@ -1,0 +1,11 @@
+RUNNING PPSIM JARS FROM GITHUB
+
+Two choices: PPSim_May13_GUI.jar runs the sim with a GUI, PPSim_May13_NoGUI.jar runs the sim with no GUI
+
+1. Download zip file from Github
+2. In your working folder, create a folder called BiologicalSimulationInstances
+3. Place the contents of the Github folder BiologicalSimulationInstances into that new folder. Make sure this has the compiled classes, not the source files.
+4. Make sure the jar you want to run is in your working folder, not the BiologicalSimulationInstances folder.
+5. Make sure you have completed the XML parameter file correctly. Example - Aleatory_Analysis_Test.xml on Github
+6. From the terminal window, type: java -jar PPSim_May13_[No]GUI.jar [FullPathToYourXMLParameterFile] [DescriptionOfThisRun (i.e. a run number]
+7. Simulation results will then be stored in the result file path specified in the XML file, in a folder named with the description you stated in step 6.
